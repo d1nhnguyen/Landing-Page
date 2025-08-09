@@ -8,6 +8,27 @@ body   {
    background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.information {
+    width: 450px;
+}
+
 .hero {
     font-size: 48px;
     color: #F9FAF8;
@@ -27,4 +48,61 @@ body   {
 img {
     width: 450px;
     height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, .call-action-section {
+    margin-top: 8px;
+    background-color: #3882F6;
+}
+
+.content button {
+    border-radius: 16px;
+    font-size: 16px;
+    color: white;
+    border: 0px;
+    padding: 8px 16px;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-box {
+    display: flex;
+    gap: 24px;
+}
+
+.box {
+    width: 150px;
+}
+
+.illustration {
+    height: 150px;
+    width: 150px;
+    border: 5px solid  #3882F6;
+    border-radius: 24px;
+}
+
+.infomation-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
 }
