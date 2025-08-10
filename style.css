@@ -153,7 +153,7 @@ button, .call-action-section {
     border: 1px solid #F9FAF8;
     border-radius: 4px;
     padding: 0 16px;
-    margin: 0 16px;
+    margin-right: 16px;
 }
 
 .footer{
